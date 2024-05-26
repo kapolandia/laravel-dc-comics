@@ -14,7 +14,6 @@
     @vite('resources/js/app.js')
 
 </head>
-//X
 <body class="m-0 p-0">
 
     <main class="bg-light">
