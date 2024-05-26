@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Comic extends Model
 {
     use HasFactory;
+
+    // allow mass assignment
+    protected $fillable = ['title', 'description', 'thumb', 'price', 'series', 'type', 'sale_date'];
 }

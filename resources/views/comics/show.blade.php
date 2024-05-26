@@ -31,7 +31,6 @@
           </tr>
         </thead>
         <tbody>
-            @foreach ($comics as $comic)
             <tr>
               <th scope="row"><img src="https://picsum.photos/300/300"></th>
               <td > {{$comic->title}}</td>
@@ -41,7 +40,6 @@
               <td > {{$comic->type}}</td>
               <td > {{$comic->sale_date}}</td>
             </tr>
-            @endforeach
         </tbody>
       </table>
     </main>
